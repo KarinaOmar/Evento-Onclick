@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Evento Onclick</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <div class="nav">
+        <h1 class="titulo_nav">Dojonary</h1>
+        <div>
+            <label for="input_texto"></label>
+            <input type="text" name="Search" id="input_texto" placeholder="Search"> 
+        </div>
+        <div>
+            <button class="login" onclick="click_Login(this)">Login
+            </button>
+        </div>
+    </div>
+    <div class="contenido">
+        <div class="columna1">
+            <div class="cuadrosup">
+                <div class="cuadrosup1">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h3>Plural:ninjas</h3> <br>
+                    <button class="likes">13 likes</button>
+                </div>
+                <div class="cuadrosup2">
+                    <p>A practitioner skilled in the <br>
+                    <a href="#">Japanese</a> art of <a href="#">Ninjutsu</a></p>
+                </div>    
+            </div>
+            <div class="cuadroinf">
+                <div class="cuadroinf1">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h3>Plural:ninjas</h3> <br>
+                    <button class="likes">37 likes</button>
+                </div>
+                <div class="cuadroinf2">
+                    <p>A <a href="#">programmer</a> who breaks <br>
+                        down problems with <a href="#">zen</a>-like <br>
+                        focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="columna2">
+            <div class="definition">
+                <h2>Dojonary is <br>
+                    defined by YOU</h2>
+                    <button class="add" ondblclick="eliminar(this)">Add Definition</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    <script src="/js/script.js"> </script>
+</body>
+</html>

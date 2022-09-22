@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.container{
+    width: 750px;
+    margin-left: 150px;
+}
+.nav{
+    background-color: rgb(201, 199, 199);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.titulo_nav{
+    margin-left:1px;
+    color: black;
+}
+
+.login{
+    width: 90px;
+    font-size: 10pt;
+    color: antiquewhite;
+    background-color: blue;
+    border-color: 2px solid black;
+    box-shadow: 0.2rem 0.2rem black;
+}
+/*contenido*/
+
+.contenido{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cuadrosup{
+    width: 500px;
+    height: 150px;
+    border: 3px solid black;
+    margin: 26px;
+    margin-left: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.cuadrosup1{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 1px;
+    margin-left: 40px;
+    
+}
+
+
+.cuadrosup2{
+    display: flex;
+    margin-left: 100px;
+}
+
+.cuadroinf{
+    width: 500px;
+    height: 150px;
+    border: 3px solid black;
+    margin: 26px;
+    margin-left: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.cuadroinf1{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 1px;
+    margin-left: 40px;
+}
+
+.cuadroinf2{
+    display: flex;
+    margin-left: 100px;
+}
+/*columna2*/
+.columna2{
+    margin-top: 6px;
+}
+.definition{
+    width: 210px;
+    height: 110px;
+    border: 3px solid black;
+    margin: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+.add{
+    width: 170px;
+    height: 30px;
+    font-size: 10pt;
+    color: black;
+    background-color:green;
+    border-color: 2px solid black;
+    box-shadow: 0.2rem 0.2rem black;
+}
+
+
